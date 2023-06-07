@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body
+    class="min-h-screen w-full bg-blue-50 dark:bg-slate-900 dark:text-white"
+  >
+    <header class="sticky top-0 z-10 bg-blue-600 text-white">
+      <section
+        class="mx-auto flex max-w-4xl items-center justify-between p-4 md:p-7"
+      >
+        <h1 class="mr-4 text-3xl font-medium italic sm:text-4xl">
+          <a href="#home">
+            LOGIN <span class="font-bold italic text-red-500">R</span></a
+          >
+        </h1>
+        <div class="relative -mt-0.5 w-8 cursor-pointer sm:hidden">
+          <button
+            class="absolute h-1 w-8 bg-white before:absolute before:h-1 before:w-8 before:-translate-y-3 before:-translate-x-4 before:bg-white before:content-[''] after:absolute after:h-1 after:w-8 after:translate-y-2 after:-translate-x-4 after:bg-white after:content-[''] hover:rounded hover:before:rounded hover:after:rounded"
+          ></button>
+        </div>
+        <nav
+          class="hidden space-x-5 sm:block sm:text-2xl ls:text-3xl mls:space-x-10"
+          aria-label="header"
+        >
+          <a href="#sign up" class="sm:hover:4xl ls:hover:text-4xl">SIGN UP</a>
+          <a href="#market" class="sm:hover:4xl ls:hover:text-4xl">MARKET</a>
+          <a href="#contact" class="sm:hover:4xl ls:hover:text-4xl"
+            >CONTACT ME</a
+          >
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section
+        class="w-4xl ws:section-min-height ts:section-min-height flex min-h-screen max-w-full flex-col items-center bg-gradient-to-tr from-red-600 via-red-300 to-blue-500"
+        id="home"
+      >
+        <div class="flex justify-center py-6">
+          <a
+            href=""
+            class="mr-6 border border-double border-red-800 p-2 hover:bg-red-600 sm:hidden"
+            >LOG <span class="italic">IN</span>
+          </a>
+          <a
+            href=""
+            class="border border-double border-red-800 p-2 hover:bg-red-600 sm:hidden"
+            >SIGN <span class="italic">UP</span>
+          </a>
+        </div>
+        <figure class="mx-4 mt-10 max-w-fit">
+          <div class="flex justify-center">
+            <h2 class="font-mediun block text-5xl italic text-slate-900">
+              WE AT LOGIN
+              <span class="font-bold italic text-red-500">RHEACT</span> WANT
+              YOUR PARTNERSHIP
+            </h2>
+          </div>
+          <figcaption class="m-10 text-red-600">
+            You can trade your coin with us and also invest in others to get
+            your negotiable interest. Sign up to log in to get started
+          </figcaption>
+        </figure>
+        <article
+          class="flex h-[500px] w-96 flex-col items-center rounded bg-blue-400"
+        >
+          <div
+            class="mt-2 grid h-24 w-24 place-content-center rounded-full border border-b-4 border-solid border-red-600"
+          >
+            <i class="fa-solid fa-user fa-3x pb-1"></i>
+            <p class="pl-[6px]">user</p>
+          </div>
+          <form action="" class="mt-3">
+            <p class="m-4">
+              <label for="username"></label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                autofocus
+                autocomplete="on"
+                placeholder="username"
+                required
+                class="rounded"
+              />
+            </p>
+            <p class="m-4">
+              <label for="email"></label>
+              <input
+                type="email"
+                required
+                autocomplete="on"
+                placeholder="mkb@gmail.com"
+                class="rounded"
+              />
+            </p>
+            <p class="m-4">
+              <label for="password"></label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                placeholder="password"
+                class="rounded"
+              />
+            </p>
+            <button
+              type="submit"
+              class="m-4 mb-2 block h-12 w-fit rounded bg-blue-500 p-4 hover:rounded-full"
+            >
+              Login <i class="fa-solid fa-right-to-bracket"></i>
+            </button>
+          </form>
+          <p class="pb-4">
+            Have no account yet!
+            <a href="#sign up" class="inline-block text-red-600">Sign up</a>
+          </p>
+        </article>
+      </section>
+      <section
+        id="sign up"
+        class="w-4xl ws:section-min-height ts:section-min-height mt-2 mb-6 flex min-h-screen flex-col items-center overflow-auto bg-gradient-to-tr from-blue-600 via-red-300 to-blue-500"
+      >
+        <div
+          class="mt-44 flex h-3/4 w-96 flex-col items-center rounded bg-blue-400"
+        >
+          <div
+            class="mt-2 grid h-28 w-28 place-content-center rounded-full bg-red-900"
+          >
+            <img
+              src="./img/shana.jpg"
+              alt="mr.universe"
+              class="w-24 rounded-full"
+            />
+          </div>
+          <form action="" class="mt-3 mb-6">
+            <p class="m-4">
+              <label for="firstName">First_name:</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                required
+                placeholder="sam"
+                autocomplete="on"
+                class="ml-1 rounded"
+              />
+            </p>
+            <p class="m-4">
+              <label for="surname">Surname:</label>
+              <input
+                type="text"
+                id="surname"
+                name="surname"
+                required
+                placeholder="joe"
+                autocomplete="on"
+                class="ml-4 rounded"
+              />
+            </p>
+            <p class="m-4">
+              <label for="username">Usename:</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                required
+                autocomplete="on"
+                placeholder="wixwixscorpion"
+                class="ml-3 rounded"
+              />
+            </p>
+            <p class="m-4">
+              <label for="email" class="mr-6">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                autocomplete="on"
+                placeholder="mkb@gmail.com"
+                class="ml-4 rounded"
+              />
+            </p>
+            <p class="m-4">
+              <label for="tel">Digits:</label>
+              <input
+                type="tel"
+                id="tel"
+                required
+                placeholder="5555555555"
+                autocomplete="on"
+                class="ml-9 rounded"
+              />
+            </p>
+            <p class="m-4">
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                placeholder
+                class="ml-[10px] rounded"
+              />
+            </p>
+            <button
+              type="submit"
+              class="ml-24 mb-3 h-auto w-fit rounded bg-blue-500 p-3 hover:rounded-full"
+            >
+              Sign up <i class="fa-solid fa-user-plus"></i>
+            </button>
+          </form>
+          <p>
+            You are free to enter into the
+            <a href="#market" class="text-red-600">MARKET</a>
+          </p>
+        </div>
+      </section>
+      <section
+        id="market"
+        class="w-4xl mt-5 mb-3 grid h-screen grid-cols-3 gap-1"
+      >
+        <div class="col-span-2 h-screen w-full bg-red-900">
+          <h2
+            class="flex justify-center bg-black p-3 text-xl font-bold text-white"
+          >
+            MARKET VALUE
+          </h2>
+          <div class="h-screen">
+            <div class="card">
+              <img src="img/king.jpg" alt="crown" class="h-60 w-56 pl-4 pt-5" />
+              <p
+                class="mt-5 flex cursor-pointer justify-center rounded bg-black text-xl font-bold text-red-400 hover:underline"
+              >
+                send to cart
+              </p>
+            </div>
+            <div class="card">
+              <img src="img/king.jpg" alt="crown" class="h-60 w-56 pl-4 pt-5" />
+              <p
+                class="mt-5 flex cursor-pointer justify-center rounded bg-black text-xl font-bold text-red-400 hover:underline"
+              >
+                send to cart
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-blue-900">
+          <ul>
+            <li
+              class="mx-auto mb-3 flex justify-between rounded bg-black text-xl font-bold text-white"
+            >
+              <h2 class="p-3 pl-10">YOUR VALUE</h2>
+              <span class="p-3">USD</span>
+            </li>
+            <li class="flex justify-center text-white">
+              <p>
+                You
+                <span class="item-xl italic text-red-400"> Worth: </span>$0.00
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        id="contact"
+        class="ws:section-min-height ts:section-min-height mt-2 flex min-h-screen w-full justify-between bg-slate-900 text-xl"
+      >
+        <div class="py-30 flex w-1/4 flex-col">
+          <div class="ml-10 whitespace-nowrap">
+            <h2 class="mt-10 text-white sm:mt-20 sm:text-3xl sml:uppercase">
+              contact me
+            </h2>
+            <hr class="sml:px-10" />
+          </div>
+          <div class="mt-10 ml-20 hidden sm:block">
+            <p class="mt-10 text-red-500">1234567890</p>
+            <p class="mt-10 text-red-500">abc@gmail.com</p>
+            <p class="mt-10 text-red-300">other platforms:</p>
+          </div>
+          <div class="mt-5 ml-10 hidden">
+            <p class="mt-10 text-red-500">1234567890</p>
+            <p class="mt-6 text-red-500">abc@gmail.com</p>
+            <p class="mt-10 text-red-300">other platforms:</p>
+          </div>
+        </div>
+        <article class="mt-10 ml-36 w-3/4 max-w-4xl">
+          <form action="post">
+            <h3
+              class="mb-10 hidden h-10 w-1/2 bg-blue-500 p-1 italic mls:block"
+            >
+              Leave a message
+            </h3>
+            <p class="mb-10">
+              <label for="username"></label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                required
+                autocomplete="on"
+                placeholder="username"
+                class="h-10 w-2/4 rounded"
+              />
+            </p>
+            <p class="mb-10 w-full">
+              <label for="email"></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                autocomplete="on"
+                placeholder="mkbscorpion@gmail.com"
+                class="h-10 w-2/4 rounded"
+              />
+            </p>
+            <p>
+              <label for="message"></label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                required
+                placeholder="message"
+                class="h-40 w-2/4 rounded"
+              ></textarea>
+            </p>
+            <button
+              type="submit"
+              class="mt-2 mb-2 rounded border border-double border-blue-900 px-3 py-2 text-blue-900 transition-colors duration-500 hover:bg-blue-400"
+            >
+              Send
+            </button>
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer class="h-96 bg-blue-400">
+      <section class="max-w-400 flex flex-col">
+        <div class="mt-10 flex">
+          <div class="mx-auto space-x-5">
+            <p class="inline-block">Copyright &copy; <span>2023</span></p>
+            <p class="inline-block">All Rights Reserved</p>
+          </div>
+          <nav class="mx-auto" aria-label="footer-returner">
+            <ul class="flex ls:space-x-20">
+              <li>
+                <a
+                  class="relative content-[''] after:absolute after:top-8 after:right-0 after:h-1 after:w-0 after:bg-red-400 after:content-[''] hover:after:w-full hover:after:rounded"
+                  href="#home"
+                >
+                  LOGIN
+                  <span class="text-xl font-bold italic text-red-500"
+                    >R</span
+                  ></a
+                >
+              </li>
+              <li class="hidden mls:block">
+                <a
+                  class="relative content-[''] after:absolute after:top-8 after:right-0 after:h-1 after:w-0 after:bg-red-400 after:content-[''] hover:after:w-full hover:after:rounded"
+                  href="#sign up"
+                  >Sign up</a
+                >
+              </li>
+              <li class="hidden mls:block">
+                <a
+                  class="relative content-[''] after:absolute after:top-8 after:right-0 after:h-1 after:w-0 after:bg-red-400 after:content-[''] hover:after:w-full hover:after:rounded"
+                  href="#market"
+                  >Market</a
+                >
+              </li>
+              <li class="hidden mls:block">
+                <a
+                  class="relative content-[''] after:absolute after:top-8 after:right-0 after:h-1 after:w-0 after:bg-red-400 after:content-[''] hover:after:w-full hover:after:rounded"
+                  href="#contact"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <nav class="mt-28 flex justify-around" aria-label="footer-icons">
+            <i
+              class="fa-brands fa-facebook fa-2xl hover:scale-105 hover:transform"
+            ></i>
+            <i
+              class="fa-brands fa-twitter fa-2xl hover:scale-105 hover:transform"
+            ></i>
+            <i
+              class="fa-brands fa-instagram fa-2xl hover:scale-105 hover:transform"
+            ></i>
+            <i
+              class="fa-brands fa-tiktok fa-2xl hover:scale-105 hover:transform"
+            ></i>
+          </nav>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply bg-green-900 sml:mt-3 h-72 w-60 border-collapse transform hover:scale-105 xl:my-3 mx-auto md:my-6 sm:mt-28
+}
+
+
+@layer utilities {
+  .section-min-height {
+    min-height: calc(100vh - 80px);
+  }
+}

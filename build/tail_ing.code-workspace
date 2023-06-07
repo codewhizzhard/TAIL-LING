@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../tail"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "tail_ing"
+  }
+}
